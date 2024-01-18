@@ -9,10 +9,14 @@ while awnser == "1":
     (1) Познань
     (2) Лодзь""")
     target_town = input()
-    while target_town != "1" or target_town != "2":
-        print("Нет такого варианта")
-        print("Введите ещё раз")
-        target_town = input()
+    if target_town != "1" or target_town != "2":
+        t_t_awnser = 0
+        while t_t_awnser == 0:
+            print("Нет такого варианта")
+            print("Введите ещё раз")
+            target_town = input()
+            if target_town == "1" or target_town == "2":
+                t_t_awnser = 1
     if target_town == "1":
         print("Отличное решение!")
         print("""Вы едете уже 2 часа и встречаете танкетку под названием ТК-2
@@ -20,10 +24,14 @@ while awnser == "1":
         (1) Не открывать огонь
         (2) Открыть огонь""")
         TK_2_awnser = input()
-        while TK_2_awnser != "1" or TK_2_awnser != "2":
-            print("Нет такого варианта")
-            print("введите ещё раз")
-            TK_2_awnser = input()
+        if TK_2_awnser != "1" or TK_2_awnser != "2":
+            TK_2_awnser_2 = 0
+            while TK_2_awnser_2 != "1" or TK_2_awnser != "2":
+                print("Нет такого варианта")
+                print("введите ещё раз")
+                TK_2_awnser = input()
+                if TK_2_awnser == "1" or TK_2_awnser == "2":
+                    TK_2_awnser_2 = 1
         if TK_2_awnser == "1":
             print("Танкетка стреляет по вам!")
             TK_2_set = {"a1", "b1", "c1", "d1"}
@@ -102,8 +110,13 @@ while awnser == "1":
     (1) да
     (2) нет""")
     awnser = input()
-    while awnser != "1" or awnser != "2":
-        print("""Это не ответ.
-        Хотите ли вы сыграть ещё раз?
-        (1) да"
-        (2) нет""")
+    if awnser != "да" or awnser != "нет":
+        awnser_2 = 0
+        while awnser != "1" or awnser != "2":
+            print("""Это не ответ.
+            Хотите ли вы сыграть ещё раз?
+            (1) да"
+            (2) нет""")
+            awnser = input()
+            if awnser == "да" or awnser == "нет":
+                awnser_2 = 1
