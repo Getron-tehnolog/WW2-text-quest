@@ -94,18 +94,20 @@ RaTtE19391943""")
 (1) Открыть огонь
 (2) Не открывать огонь""")
         WZ_34_answer = input()
-        if WZ_34_answer == "1":
+        if WZ_34_answer == "2":
+            a3 = b3 = c3 = d3 = e3 = "f"
             WZ_34_set = {a3, b3, c3, d3, e3}
             random4 = WZ_34_set.pop()
             if a3 not in WZ_34_set:
                 print("""Вы не пробили её(ЭХ)
 Вы проиграли""")
             else:
-                WZ_34_answer = "2"
-        if WZ_34_answer == "2":
+                WZ_34_answer = "1"
+        if WZ_34_answer == "1":
             print("""Поздравляем!
 Вы уничтожили этот бронеавтомобиль.
 Теперь вы приближаетесь к городу.""")
+            a4 = b4 = c4 = "damn"
             bomb_set = {a4, b4, c4}
             random_bomb_set_part = bomb_set.pop()
             if a4 not in random_bomb_set_part:
