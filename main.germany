@@ -94,7 +94,7 @@ RaTtE19391943""")
 (1) Открыть огонь
 (2) Не открывать огонь""")
         WZ_34_answer = input()
-        if WZ_34_answer == "2":
+        if WZ_34_answer == "1":
             WZ_34_set = {a3, b3, c3, d3, e3}
             random4 = WZ_34_set.pop()
             if a3 not in WZ_34_set:
