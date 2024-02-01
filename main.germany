@@ -127,3 +127,7 @@ while awnser == "1":
         awnser = "0"
         shit = input()
     elif awnser == "ТГ-5":
+        print("""ПОЗДРАВЛЯЕМ!!!
+Вы открыли самую редкую концовку за Германию!
+Вот вам код на ТГ-5 за советов:
+TG-5ISBESTBRO1942STALINGRAD""")
