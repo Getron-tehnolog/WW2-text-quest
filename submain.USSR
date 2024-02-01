@@ -24,7 +24,7 @@ while awnser == "1":
             random1 = pz_5_set.pop()
             if a1 not in random1:
                 print("""Вы не пробили и в вас стреляют.
-Вы проиграли,""" name)
+Вы проиграли,""", name)
             else:
                 print("""Вы пробили и уничтожили пантеру.
 Вы победили!""")
@@ -42,7 +42,7 @@ while awnser == "1":
             random1 = pz_5_set.pop()
             if a2 not in random1:
                 print("""Вы не пробили и в вас стреляют.
-Вы проиграли,""" name)
+Вы проиграли,""", name)
     elif tank == "3":
         print("Хорошо.")
         print("""Сейчас 1943 год.
@@ -57,7 +57,7 @@ while awnser == "1":
             random1 = pz_5_set.pop()
             if a1 not in random1:
                 print("""Вы не пробили и в вас стреляют.
-Вы проиграли,""" name)
+Вы проиграли,""", name)
             else:
                 print("""Вы пробили и уничтожили пантеру.
 Вы победили!""")
